@@ -18,6 +18,10 @@
     color: #000;
 }
 
+*:link {
+    color: #000;
+}
+
 .clear {
     clear: both;
 }
