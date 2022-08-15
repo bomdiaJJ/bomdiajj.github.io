@@ -1,0 +1,29 @@
+@font-face {
+    font-family: WorkSans;
+    src: url(fonts/worksans/WorkSans-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: WorkSans;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+nav {
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 1px #999 solid;
+}
+
+header {
+    width: 720px;
+    height: 300px;
+    margin: auto;
+    border-left: 1px #000 solid;
+    border-right: 1px #000 solid;
+}
