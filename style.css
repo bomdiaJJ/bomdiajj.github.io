@@ -1,29 +1,87 @@
 @font-face {
-    font-family: WorkSans;
-    src: url(fonts/worksans/WorkSans-Regular.ttf);
+    font-family: "Work Sans";
+    src: url(fonts/WorkSans/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Work Sans Black";
+    src: url(fonts/WorkSans/WorkSans-Medium.ttf);
 }
 
 * {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    font-family: WorkSans;
+}
+
+*:visited {
+    color: #000;
+}
+
+.clear {
+    clear: both;
 }
 
 body {
     background-color: #fafafa;
+    font-family: "Work Sans";
 }
 
 nav {
-    height: 50px;
+    padding: 5px 30px;
+    font-size: 16px;
+    font-family: "Work Sans Black";
     background-color: #fff;
     border-bottom: 1px #999 solid;
+}
+
+.menuOptions {
+    margin: auto;
+    width: 475px;
+}
+
+.navButton {
+    float: left;
+    width: 85px;
+    padding: 6px 0px;
+    border-radius: 5px;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+.navButton:hover {
+    background-color: #f5f5f5;
+    color: navy;
 }
 
 header {
     width: 720px;
     height: 300px;
     margin: auto;
-    border-left: 1px #000 solid;
-    border-right: 1px #000 solid;
+}
+
+.activeNavButton {
+    background-color: #fafafa;
+    color: navy;
+}
+
+.coolPic {
+    border-radius: 50%;
+    margin: 30px 0 10px 0;
+}
+
+h2 {
+    padding: 40px 0 20px 0;
+}
+
+h2::before {
+    content: "!!";
+    color: #999;
+    margin: 0 5px 0 0;
+}
+
+h3::before {
+    content: "!";
+    color: #999;
+    margin: 0 5px 0 0;
 }
