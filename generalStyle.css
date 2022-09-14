@@ -1,27 +1,7 @@
-@font-face {
-    font-family: "Work Sans";
-    src: url(fonts/WorkSans/WorkSans-Regular.ttf);
-}
-
-@font-face {
-    font-family: "Work Sans Medium";
-    src: url(fonts/WorkSans/WorkSans-Medium.ttf);
-}
-
 * {
     margin: 0px;
     padding: 0px;
     border: 0px;
-}
-
-*:visited {
-    color: #000;
-    color: #fafafa;
-}
-
-*:link {
-    color: #000;
-    color: #fafafa;
 }
 
 .clear {
@@ -29,16 +9,14 @@
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: #fafafa;
-    color: #000;
-    font-family: "Work Sans";
 }
 
 nav {
     padding: 5px 30px;
     font-size: 16px;
-    font-family: "Work Sans Medium";
-    background-color: #fafafa;
+    background-color: red;
 }
 
 .menuOptions {
@@ -49,10 +27,9 @@ nav {
 .navButton {
     float: left;
     width: 85px;
-    padding: 6px 0px;
-    margin: 5px 5px;
+    padding: 3px 0px;
+    margin: 3px 5px;
     text-align: center;
-    color: #4a4952;
 }
 
 .navButton:hover {
@@ -60,8 +37,8 @@ nav {
 }
 
 .activeNavButton {
-    color: #310069;
-    border-bottom: #310069 2px solid;
+    border-bottom: 2px solid;
+    font-weight: 400;
 }
 
 main {
@@ -70,7 +47,8 @@ main {
 }
 
 h1 {
-    padding: 40px 0 20px 0;
+    padding: 60px 0 20px 0;
+    font-weight: 600;
 }
 
 p {
